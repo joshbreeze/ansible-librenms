@@ -1,3 +1,9 @@
+---
+- name: Add universe repository
+  become: yes
+  apt_repository:
+    repo: universe
+
 - name: Install dependencies
   apt:
     name: "{{ item }}"
