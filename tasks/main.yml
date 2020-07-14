@@ -13,7 +13,6 @@
     - logrotate
     - mtr-tiny
     - nmap
-    - python-memcache
     - python-mysqldb
     - rrdtool
     - whois
